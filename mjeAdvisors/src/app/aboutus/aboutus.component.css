@@ -1,6 +1,7 @@
 .content_title{
+   
     font-family: Avenir;
-    color: #676767;
+    color: #336699;
 }
 .content_subTitle{
     font-family: Avenir;
@@ -12,9 +13,9 @@
 }
 .list_container {
     max-width:800px; 
-    border-style: solid; 
+    border-style: 0.5px solid; 
     border-color: gray; 
-    background: rgba(163,168,255,.3);
+    background: rgba(30,100,181,.21);
     margin-top:30px;
     margin-bottom:30px;
     padding:20px;

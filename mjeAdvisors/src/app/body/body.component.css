@@ -1,9 +1,9 @@
 .parallax { 
     /* The image used */
-    background-image: url("/assets/mjeimage1.jpg");
+    background-image: url("/assets/mjeimage12.jpg");
 
     /* Set a specific height */
-    height: 550px; 
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -42,8 +42,9 @@
 
 .home_header {
     padding: 11.3875rem calc(50vw - 473px) 11.3875rem;
-    text-align: left;
+    text-align: center;
     position: relative;
+    top: 150px;
     /* background: rgba(0,0,0,.3); */
 }
 

@@ -13,4 +13,9 @@
     height: 70px;
     border-top: 3px solid #464342;
     border-bottom: 1px solid #464342;
+    
+}
+.hideNav{
+    display: none;
+    
 }

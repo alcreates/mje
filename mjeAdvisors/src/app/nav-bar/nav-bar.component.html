@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light navBar">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navBar" [class.hideNav]="hideNav" appTrackscroll (pageYPositionChange)="onPageYChange($event)" @fade >
   <div class="container">
   <a class="navbar-brand navItemLogo" href="#">
       <img src="/assets/mjeLogo.png" class="img-fluid" alt="Responsive image">
