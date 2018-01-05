@@ -1,0 +1,99 @@
+.team_container {
+    height: 800px;
+    background-color: #D6D6D6;
+    font-family: Avenir;
+}
+
+.team_title{
+    font-size: 2.813em;
+    text-align: center;
+    font-family: 'Fjalla One',Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #002551;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    padding-top: 30px;
+   
+}
+
+#barry {
+   
+    background-image: url("/assets/bari.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    width:175px;
+    height: 200px;
+    border: 1px solid #fff;
+    
+   
+   
+}
+#meg {
+  
+    background-image: url("/assets/meg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    width:175px;
+    height: 200px;
+    border: 1px solid #fff;
+   
+   
+}
+#sarah {
+  
+    background-image: url("/assets/sarah.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    width:175px;
+    height: 200px;
+    border: 1px solid #fff;
+   
+   
+}
+#frank {
+  
+    background-image: url("/assets/frank.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    width:175px;
+    height: 200px;
+    border: 1px solid #fff;
+   
+   
+}
+.image_wrapper {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.office_name {
+    position: absolute;
+    top: 23px;
+    left: 1.682em;
+    padding: 0 .5em;
+    background: #002551;
+    color: #fff;
+    font-size: 1.375rem;
+    line-height: 1.682em;
+    font-family: 'Fjalla One',Gotham,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    -moz-transform: rotateZ(90deg);
+    -ms-transform: rotateZ(90deg);
+    -o-transform: rotateZ(90deg);
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+}
+
+.name_label {
+    text-align: center;
+}

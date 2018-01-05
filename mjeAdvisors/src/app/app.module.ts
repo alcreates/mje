@@ -11,6 +11,7 @@ import { OurBusinessComponent } from './our-business/our-business.component';
 import { TrackscrollDirective } from './trackscroll.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AgmCoreModule } from '@agm/core';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AgmCoreModule } from '@agm/core';
     WhyMjeComponent,
     OurBusinessComponent,
     TrackscrollDirective,
-    OurReachComponent
+    OurReachComponent,
+    TeamComponent
    
   ],
   imports: [

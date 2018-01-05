@@ -1,13 +1,17 @@
 agm-map {
-    height: 700px;
+    height: 800px;
    
+}
+agm-marker{
+    color:white;
+    background-color: white;
 }
 
 .section_container {
     margin-left: 217px;
     margin-top: 30px;
     background-color: #242F3D;
-    color: rgb(196, 186, 180);
+    color: rgb(250, 248, 246);
     position: relative;
     width: 200px;
     top: 8px;
