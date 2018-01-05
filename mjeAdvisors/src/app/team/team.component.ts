@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material';
+import { BioComponent } from '../bio/bio.component';
 
 @Component({
   selector: 'app-team',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog ) { }
 
   ngOnInit() {
+  }
+
+  openDialog(member){
+    this.dialog.open(BioComponent, { data: {name: "Barry"}, height:"400px" , width:"400px"});
   }
 
 }
