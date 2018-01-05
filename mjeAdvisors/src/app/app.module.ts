@@ -10,11 +10,15 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { WhyMjeComponent } from './why-mje/why-mje.component';
 import { OurBusinessComponent } from './our-business/our-business.component';
 import { TrackscrollDirective } from './trackscroll.directive';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { AgmCoreModule } from '@agm/core';
 import { TeamComponent } from './team/team.component';
 import { MatDialogModule } from '@angular/material';
 import { BioComponent } from './bio/bio.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { DirectContactComponent } from './direct-contact/direct-contact.component';
 
 @NgModule({
   declarations: [
@@ -28,17 +32,22 @@ import { BioComponent } from './bio/bio.component';
     TrackscrollDirective,
     OurReachComponent,
     TeamComponent,
-    BioComponent
+    BioComponent,
+    ContactusComponent,
+    DirectContactComponent
    
   ],
   entryComponents: [
-    BioComponent
+    BioComponent,
+    DirectContactComponent
   ]
   ,
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatDialogModule,
+    HttpModule,
+    FormsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBiQOkNFVlI6IqR5vU5bXvFQWbdwosz75U'
     })
