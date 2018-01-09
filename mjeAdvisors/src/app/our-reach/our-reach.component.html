@@ -4,9 +4,11 @@
       <div class="container section_container">
           <h2 class="content_title">OUR REACH</h2>
       </div>
-        
 
-    <agm-map  usePanning="true"  [zoom]="zoom" [styles]="styles" [mapDraggable]="mapDraggable"  [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)" [scrollwheel]="scrollwheel" [zoomControl]="zoomControl"
+      <!-- <div id="mapDiv" [style.width.%]="100" [style.height.px]="500"></div> -->
+      <amCharts id="chartdiv" [options]="options" [style.width.%]="100" [style.height.px]="500"></amCharts>
+
+    <!-- <agm-map  usePanning="true"  [zoom]="zoom" [styles]="styles" [mapDraggable]="mapDraggable"  [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)" [scrollwheel]="scrollwheel" [zoomControl]="zoomControl"
     
     [disableDefaultUI] = "false"
     (mapClick)="mapClicked($event)"
@@ -19,7 +21,7 @@
 
       </agm-marker>
      
-    </agm-map>
+    </agm-map> -->
       
   
   </div>

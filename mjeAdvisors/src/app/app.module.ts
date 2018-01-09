@@ -19,6 +19,8 @@ import { MatDialogModule } from '@angular/material';
 import { BioComponent } from './bio/bio.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { DirectContactComponent } from './direct-contact/direct-contact.component';
+import { AmChartsModule } from "@amcharts/amcharts3-angular";
+
 
 @NgModule({
   declarations: [
@@ -48,6 +50,7 @@ import { DirectContactComponent } from './direct-contact/direct-contact.componen
     MatDialogModule,
     HttpModule,
     FormsModule,
+    AmChartsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBiQOkNFVlI6IqR5vU5bXvFQWbdwosz75U'
     })
