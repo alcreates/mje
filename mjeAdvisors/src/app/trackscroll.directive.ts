@@ -10,7 +10,7 @@ export class TrackscrollDirective {
   @Output() pageYPositionChange:EventEmitter<any> = new EventEmitter();
 
   constructor() {
-    console.log('TrackScrollDirective');
+   
   }
 
   @HostListener('window:scroll', ['$event'])

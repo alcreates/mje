@@ -29,14 +29,14 @@ export class NavBarComponent implements OnInit {
   }
 
   onPageYChange(pageY:number) {
-    console.log("in on pagy change", pageY);
+   
     this.pageY = pageY;
     if( pageY > 100){
       this.hideNav = false;
     }else{
       this.hideNav = true;
     }
-    console.debug("PageY Pos ", pageY);
+  
   }
 
 }

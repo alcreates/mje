@@ -2,6 +2,8 @@
     height: 500px;
     background-color: #D6D6D6;
     font-family: Avenir;
+    display: flex;
+    justify-content: center;
 }
 
 .team_title{
@@ -11,7 +13,7 @@
     color: #002551;
     letter-spacing: 1px;
     line-height: 1.1em;
-    padding-top: 30px;
+   
    
 }
 
