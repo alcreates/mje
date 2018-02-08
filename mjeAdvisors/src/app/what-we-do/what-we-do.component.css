@@ -1,0 +1,62 @@
+.whatWeDoContainer {
+    background-color: #808080;
+    height: 550px;
+}
+.whatWeDoTitle {
+    font-family:Avenir;
+    font-style: normal;
+   
+    color: #ffffff;
+    line-height: 1.4;
+    margin: 0;
+    text-align: center;
+    padding: 32px 0;
+}
+
+
+.hero-banner__separator {
+    background-color: #fbcc11;
+    width: 42px;
+    height: 5px;
+    margin: 0 auto;
+    border: 0;
+}
+.whatWeDoStat {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content: center;
+    
+   
+}
+.whatWeDoText {
+    align-self: center;
+    
+    text-align: center;
+    font-family:Avenir;
+    font-style: normal;
+    font-weight: normal;
+    margin-top:  27px;
+    font-size: 20px;
+}
+.whatWeDoCol {
+    text-align: center;
+    margin-top:20px;
+    font-family: Avenir;
+}
+.number {
+    font-size: 96px;
+    font-size: 6rem;
+    line-height: 104px;
+    line-height: 6.5rem;
+    font-variant-numeric: oldstyle-nums;
+    -moz-font-feature-settings: "onum";
+    -webkit-font-feature-settings: "onum"; 
+    font-feature-settings: "onum";
+     letter-spacing: -8px;
+     font-family: FFScalaWeb, Georgia, Utopia, Charter, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    align-self: flex-end;
+}

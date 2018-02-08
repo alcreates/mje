@@ -20,6 +20,9 @@ import { BioComponent } from './bio/bio.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { DirectContactComponent } from './direct-contact/direct-contact.component';
 import { AmChartsModule } from "@amcharts/amcharts3-angular";
+import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
+import { OurCapabilitiesComponent } from './our-capabilities/our-capabilities.component';
+import { CoreExpertiseComponent } from './core-expertise/core-expertise.component';
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { AmChartsModule } from "@amcharts/amcharts3-angular";
     TeamComponent,
     BioComponent,
     ContactusComponent,
-    DirectContactComponent
+    DirectContactComponent,
+    WhatWeDoComponent,
+    OurCapabilitiesComponent,
+    CoreExpertiseComponent
    
   ],
   entryComponents: [

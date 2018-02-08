@@ -1,0 +1,43 @@
+<div class="container">
+ 
+  <h2 class="capHeader" >
+    Our Capabilities
+  </h2>
+
+  <p style="font-family:Avenir; font-size: 1.5em; margin-top:20px;">
+    MJE Advisors is a leading of top talent for the asset management industry. Specializing in searches for Institutional Asset Managers, Mutual Funds and Hedge Funds, MJE uses their deep rooted relationships to execute successful placements for its client firms nationally. Our highly experienced team has an extensive understanding of senior level positions across the industry, including Finance, Accounting & Operations, Compliance, Tax, plus Sales, Distribution & Marketing. MJE's dedicated team approach provides a superior level of service to our clients and allows us to execute assignments with speed and precision. 
+  </p>
+
+
+
+  <div class="row">
+    <div class="col">
+      <div class="flip"> 
+        <div class="card" [ngClass]="{'flipped':isFlipped}"  
+        (click)="isFlipped=!isFlipped"> 
+            <div class="face front"> 
+                Front
+            </div> 
+            <div class="face back"> 
+                Back
+            </div> 
+        </div> 
+    </div> 
+    </div>
+    <div class="col">
+        <div class="flip"> 
+            <div class="card" [ngClass]="{'flipped':isFlippedTwo}"  
+            (click)="isFlippedTwo=!isFlippedTwo"> 
+                <div class="face front"> 
+                    Front
+                </div> 
+                <div class="face back"> 
+                    Back
+                </div> 
+            </div> 
+        </div> 
+         
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,38 @@
+.coreTop{
+    display: flex;
+    width: 100%;
+    background-color: #578bb5;
+    color:white;
+    height: 200px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coreMiddle {
+
+    display: flex;
+    width: 100%;
+    background-color: #3e617d;
+    color:white;
+    height: 200px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.coreLast {
+
+    display: flex;
+    width: 100%;
+    background-color: #2b4357;
+    color:white;
+    height: 200px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}

@@ -30,3 +30,18 @@ agm-marker{
     font-size: 15px;
 }
 
+/* amcharts-description-div */
+/* .amcharts-description-text-div {
+    background-color: white;
+    border: solid;
+} */
+
+.ammapDescriptionWindow {
+    border: 5px solid rgba(0, 0, 0, 1) !important;
+    border-radius: 4px !important;
+    max-width: 190px !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    padding: 10px !important;
+  }
+  
+
