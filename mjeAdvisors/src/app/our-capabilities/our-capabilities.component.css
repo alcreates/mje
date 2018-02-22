@@ -32,15 +32,19 @@
           font-family: Georgia;
           font-size: 3em;
           text-align: center;
-          line-height: 200px;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          /* line-height: 200px; */
       }
       .flip .card .front {
         position: absolute;
         z-index: 1;
           background-color:#cccbcb;
-          color: white;
+          color: black;
           font-family: Avenir;
           cursor: pointer;
+          font-size: 25px;
       }
       .flip .card .back {
         transform: rotatex(-180deg);
@@ -48,4 +52,14 @@
          font-family: Avenir;
           color: black;
           cursor: pointer;
+          display:flex;
+          justify-content: right;
+          align-items: center;
+          font-size: 25px;
+      }
+      
+      ul li {
+        line-height:36px;
+        text-align:left;
+
       }

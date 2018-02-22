@@ -1,6 +1,6 @@
 .team_container {
-    height: 500px;
-    background-color: #D6D6D6;
+    height: 95vh;
+    background-color: white;
     font-family: Avenir;
     display: flex;
     justify-content: center;
@@ -29,6 +29,18 @@
     
    
    
+}
+#sean {
+
+    background-image: url("/assets/sean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    width:175px;
+    height: 200px;
+    border: 1px solid #fff;
+   
+
 }
 #meg {
   

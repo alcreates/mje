@@ -45,6 +45,7 @@ export class OurReachComponent implements AfterViewInit {
    
    
     "getAreasFromMap": true,
+   
 
     "images": [ {
       "latitude": 40.3951,
@@ -55,11 +56,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "Representative Searches:  this is the list information, this is the information",
+      // "title": "Representative Searches:  this is the list information, this is the information",
       "label": "New York",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "Representative Searches: "
+      // "description": "Representative Searches: "
     },
     {
       "latitude": 34.052235,
@@ -70,11 +71,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Los Angeles",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 41.881832,
@@ -85,11 +86,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Chicago",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 42.361145,
@@ -100,11 +101,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Boston",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude":  43.661471,
@@ -115,11 +116,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Portland, ME",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude":  41.203323,
@@ -130,11 +131,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Pennsylvania",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     
     {
@@ -146,11 +147,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Baltimore",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude":  37.926868,
@@ -161,11 +162,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Virginia",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude":  43.038902,
@@ -176,11 +177,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Milwaukee",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude":  40.367474,
@@ -191,11 +192,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Ohio",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude":  47.608013,
@@ -206,11 +207,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Seattle",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 37.773972,
@@ -221,11 +222,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "San Francisco",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 30.267153,
@@ -236,11 +237,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
-      "label": "Austin, TX",
+      // "title": "New York this is a test --- You can put any content in here ---------",
+      "label": "Austin",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 40.758701,
@@ -251,11 +252,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Salt Lake City, UH",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 32.897480,
@@ -266,11 +267,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Dallas",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 29.780472,
@@ -281,11 +282,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
-      "label": "Huston",
+      // "title": "New York this is a test --- You can put any content in here ---------",
+      "label": "Houston",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 35.040031,
@@ -296,11 +297,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Memphis",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 39.742043,
@@ -311,11 +312,11 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Denver",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     {
       "latitude": 33.753746,
@@ -326,17 +327,33 @@ export class OurReachComponent implements AfterViewInit {
       "labelColor": "white",
       "labelRollOverColor": "white",
       "scale": 0.5,
-      "title": "New York this is a test --- You can put any content in here ---------",
+      // "title": "New York this is a test --- You can put any content in here ---------",
       "label": "Atlanta",
       "labelShiftY": 2,
       // "zoomLevel": 0,
-      "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+    },
+    {
+      "latitude": 25.761681,
+      "longitude":-80.191788,
+     // "type": "circle",
+      "svgPath": this.icon,
+      "color": "white",
+      "labelColor": "white",
+      "labelRollOverColor": "white",
+      "scale": 0.5,
+      // "title": "New York this is a test --- You can put any content in here ---------",
+      "label": "Miami",
+      "labelShiftY": 2,
+      // "zoomLevel": 0,
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     },
     
   
   ],
   
     "areas": [
+     
       {
       "id": "US-AK",
       "alpha": 0,
@@ -358,10 +375,12 @@ export class OurReachComponent implements AfterViewInit {
  },
  "areasSettings": {
   "color": "#385C7B",
-  "selectedColor": "white",
-  "rollOverOutlineColor": "white",
+  "balloonText": "",
+  // "selectedColor": "white",
+  // "rollOverOutlineColor": "white",
   "rollOverColor": "#385C7B"
 },
+
 
 
       

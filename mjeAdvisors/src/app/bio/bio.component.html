@@ -1,5 +1,6 @@
 
-
+<div id="scrollId" class="container">
+    <a href=""></a>
 <div class="row">
     <div class="col" style="display:flex; flex-direction:column; justify-content:center;">
         <div class="profile-image"
@@ -12,13 +13,21 @@
         <p style="text-align:center;">{{data.position}}</p>
     </div>
 </div>
+<div class="row">
+    <div class="col">
+            <p style="text-align: justify; margin-top:30px;">
+                    {{data.bio}}
+                  </p>
+                  
+                  <p style="margin-top: 40px;">{{ data.phone}}</p>
+                  <p>Ext. - {{ data.ext }}</p>
+                  <p>{{ data.email }}</p>
+                  <a href="{{data.linkedIn}}"> <img src="assets/linkedIn.png" alt=""></a>
+
+    </div>
+</div>
+</div>
 
 
-<p style="text-align: justify; margin-top:30px;">
-  {{data.bio}}
-</p>
 
-<p>{{ data.phone}}</p>
-<p>{{ data.ext }}</p>
-<p>{{ data.email }}</p>
-<p>Linked In</p>
+

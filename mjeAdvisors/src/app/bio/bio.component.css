@@ -10,8 +10,14 @@
     align-self: center;
     margin-top:30px;
 }
+p {
+    margin-bottom: 0px;
+}
 h2 {
     align-self: center;
     font-family: Avenir;
     margin-top:20px;
+}
+*:focus {
+    outline: none;
 }
