@@ -8,8 +8,8 @@
 
 .flip {
         perspective: 800;
-         width: 400px;
-         height: 200px;
+         width: 100%;
+         height: 300px;
           position: relative;
           margin: 50px auto;
       }

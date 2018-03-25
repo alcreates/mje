@@ -10,8 +10,8 @@ import { Http } from '@angular/http';
 })
 export class ContactusComponent implements OnInit {
 
-  latitude = 40.74881;
-  longitude: number = -73.985428;	
+  latitude = 40.787878;
+  longitude = -74.3882072;
   
   constructor(private http: Http, public dialog: MatDialog) {
     
