@@ -23,6 +23,7 @@ import { AmChartsModule } from "@amcharts/amcharts3-angular";
 import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
 import { OurCapabilitiesComponent } from './our-capabilities/our-capabilities.component';
 import { CoreExpertiseComponent } from './core-expertise/core-expertise.component';
+import { OurApproachComponent } from './our-approach/our-approach.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { CoreExpertiseComponent } from './core-expertise/core-expertise.componen
     DirectContactComponent,
     WhatWeDoComponent,
     OurCapabilitiesComponent,
-    CoreExpertiseComponent
+    CoreExpertiseComponent,
+    OurApproachComponent
    
   ],
   entryComponents: [
