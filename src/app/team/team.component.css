@@ -79,6 +79,18 @@
    
    
 }
+#allison {
+  
+    background-image: url("/assets/allison.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    width:175px;
+    height: 200px;
+    border: 1px solid #fff;
+   
+   
+}
 .image_wrapper {
     display: flex;
     margin: 20px;

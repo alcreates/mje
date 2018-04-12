@@ -7,16 +7,16 @@ import { state, style,animate } from '@angular/animations';
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css'],
   animations: [
-    trigger('fade', [ 
+    trigger('fade', [
      transition('void => *', [
         style({opacity: 0}),
-        animate(2000) 
-   
+        animate(2000)
+
     ]),
-    transition('* => void',[
+    transition('* => void', [
       animate(2000, style({opacity: 0}))
     ])
-    
+
     ])
   ]
 })
