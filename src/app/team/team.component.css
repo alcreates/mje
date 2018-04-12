@@ -1,5 +1,5 @@
 .team_container {
-    height: 95vh;
+    height: 100vh;
     background-color: #F5F7F9;
     font-family: Avenir;
     display: flex;
@@ -13,6 +13,7 @@
     color: black;
     letter-spacing: 1px;
     line-height: 1.1em;
+    padding-top: 80px;
    
    
 }

@@ -13,7 +13,7 @@ export class CoreExpertiseComponent implements OnInit {
   }
 
 
-  core(e){
+  core(e) {
 
     console.log(e);
 

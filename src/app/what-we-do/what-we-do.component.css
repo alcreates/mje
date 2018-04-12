@@ -1,6 +1,7 @@
 .whatWeDoContainer {
     background-color: #808080;
     height: 550px;
+    
 }
 .whatWeDoTitle {
     font-family:Avenir;
@@ -11,6 +12,8 @@
     margin: 0;
     text-align: center;
     padding: 32px 0;
+    padding-top: 100px;
+   
 }
 
 
