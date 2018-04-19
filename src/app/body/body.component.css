@@ -68,3 +68,9 @@
     font-family: Avenir;
 }
 
+@media screen and (max-width: 600px) {
+    .home_header_subtitle {
+        font-size: 15px;
+    }
+}
+

@@ -4,7 +4,7 @@
     Our Capabilities
   </h2>
 
-  <p style="font-family:Avenir; font-size: 1.5em; margin-top:20px;">
+  <p style="font-family:Avenir; font-size: 1.5em; margin-top:20px; margin-bottom:3em;">
     MJE Advisors is a leading sourcing provider of experienced professionals for the asset management industry. Specializing in searches for Institutional Asset Managers, Mutual Funds and Alternative Asset Managers, MJE implements a customized search process to execute successful placements for its client firms nationally. Our highly experienced team has an extensive understanding of senior level positions across the industry, including Finance, Accounting & Operations, Compliance, Tax, plus Sales, Distribution & Marketing. MJE's integrated team approach provides a superior level of service to our clients and allows us to execute assignments with speed and precision. 
   </p>
 
@@ -13,10 +13,11 @@
   <div class="row">
     <div class="col">
       <div class="flip"> 
+            <!-- (click)="isFlipped=!isFlipped" -->
         <div class="card" [ngClass]="{'flipped':isFlipped}"  
-        (click)="isFlipped=!isFlipped"> 
+       > 
             <div class="face front"> 
-                Executive Search
+                Executive Retained Search
             </div> 
             <div class="face back"> 
 
@@ -36,9 +37,10 @@
     </div>
     <div class="col">
         <div class="flip"> 
+                <!-- (click)="isFlippedTwo=!isFlippedTwo" -->
             <div class="card" [ngClass]="{'flipped':isFlippedTwo}"  
-            (click)="isFlippedTwo=!isFlippedTwo"> 
-                <div class="face front"> 
+            > 
+                <div style="background-color: #487296;" class="face front"> 
                    Executive Succession Planning 
                 </div> 
                 <div class="face back"> 
@@ -51,5 +53,49 @@
          
     </div>
   </div>
+
+  <div class="row">
+        <div class="col">
+          <div class="flip"> 
+                <!-- (click)="isFlipped=!isFlipped" -->
+            <div class="card" [ngClass]="{'flipped':isFlipped}"  
+           > 
+                <div style="background-color: #487296;" class="face front"> 
+                    Experienced Container Search
+                </div> 
+                <div class="face back"> 
+    
+                    <ul style="margin-top: 20px;">
+                        <li>Executive Retained Search</li>
+                        <li>Customized Search Solutions</li>
+                        <li>Exclusive Contingence Solutions</li>
+                    </ul>
+                   
+                        <!-- <p>Executive Retained Search</p>
+                        <p>Customized Search Solutions</p>
+                        <p>Exclusive Contingence Solutions</p> -->
+                   
+                </div> 
+            </div> 
+        </div> 
+        </div>
+        <div class="col">
+            <div class="flip"> 
+                    <!-- (click)="isFlippedTwo=!isFlippedTwo" -->
+                <div class="card" [ngClass]="{'flipped':isFlippedTwo}"  
+                > 
+                    <div  class="face front"> 
+                       Executive Succession Planning 
+                    </div> 
+                    <div class="face back"> 
+                         <div style="display:flex; justify-content: center; width:100%;"> Compensation Analysis </div>
+                           
+                      
+                    </div> 
+                </div> 
+            </div> 
+             
+        </div>
+      </div>
 
 </div>

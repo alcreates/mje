@@ -70,10 +70,11 @@ export class TeamComponent implements OnInit {
     position: 'Managing Director',
     image: '/assets/meg.jpg',
     // tslint:disable-next-line:max-line-length
-    bio: 'Prior to joining MJE Advisors Alison was a Senior Executive Recruiter for Parker & Lynch a national recruiting firm owned by Adecco a Fortune 500 recruiting firm.  Alison\'s expertise was with in Accounting & Finance where she was consistently ranked one of the top recruiters for NYC & NJ for over 10 years. She earned her bachelor’s degree in Business Administration from the University of Vermont. At MJE Advisors Alison works on national searches helping firms hire top talent in Accounting, Tax and Operations.',
+    bio: `Meaghan joined MJE in 2016 from Wealth Management Consultants, where she was involved with serving ultra high net worth clients. Prior to that, she held positions in various financial institutions including UBS, Stifel Nicolaus, and Northwestern Mutual. Meaghan is originally from Arizona and received her Bachelors degree from Northwestern University, in Evanston, Illinois.
+    She currently serves as the Director of Marketing and Research at MJE where she involved in the day to day client and candidate sourcing and outreach.`,
     phone: ' ',
     ext: '',
-    email: 'allison@mjeadvisors.com',
+    email: 'meaghan@mjeadvisors.com',
     linkedIn: 'https://www.linkedin.com/in/barryemenmjeadvisors/'
    }
   ];
