@@ -67,7 +67,7 @@ export class TeamComponent implements OnInit {
    },
    {
     name: 'Meaghan Weyer',
-    position: 'Managing Director',
+    position: 'Vice President',
     image: '/assets/meg.jpg',
     // tslint:disable-next-line:max-line-length
     bio: `Meaghan joined MJE in 2016 from Wealth Management Consultants, where she was involved with serving ultra high net worth clients. Prior to that, she held positions in various financial institutions including UBS, Stifel Nicolaus, and Northwestern Mutual. Meaghan is originally from Arizona and received her Bachelors degree from Northwestern University, in Evanston, Illinois.
