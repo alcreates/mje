@@ -33,7 +33,7 @@ export class TeamComponent implements OnInit {
 
   },
    {
-     name: 'Sarah Myers',
+     name: 'Sarah Carney',
      position: 'Managing Director',
      image: '/assets/sarah.jpg',
      // tslint:disable-next-line:max-line-length
@@ -55,7 +55,7 @@ export class TeamComponent implements OnInit {
     linkedIn: 'https://www.linkedin.com/in/barryemenmjeadvisors/'
   },
    {
-    name: 'Allison Grzes',
+    name: 'Alison Grzes',
     position: 'Managing Director',
     image: '/assets/allison.jpg',
     // tslint:disable-next-line:max-line-length
@@ -66,7 +66,7 @@ export class TeamComponent implements OnInit {
     linkedIn: 'https://www.linkedin.com/in/barryemenmjeadvisors/'
    },
    {
-    name: 'Meg Weyer',
+    name: 'Meaghan Weyer',
     position: 'Managing Director',
     image: '/assets/meg.jpg',
     // tslint:disable-next-line:max-line-length
