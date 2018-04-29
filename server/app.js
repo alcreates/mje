@@ -7,16 +7,16 @@ const nodemailer = require("nodemailer");
 
 const app = express();
 
-var smtpTransport = nodemailer.createTransport({
-        host: 'smtp.office365.com', // Office 365 server
-        port: 587,     // secure SMTP
-        secure: false, // false for TLS - as a boolean not string - but the default is false so just remove this completely
+// var smtpTransport = nodemailer.createTransport({
+//         host: 'smtp.office365.com', // Office 365 server
+//         port: 587,     // secure SMTP
+//         secure: false, // false for TLS - as a boolean not string - but the default is false so just remove this completely
     
-    auth: {
-        user: 'info@mjeadvisors.com',
-        pass: keys.google.clientSecret
-    }
-});
+//     auth: {
+//         user: 'info@mjeadvisors.com',
+//         pass: keys.google.clientSecret
+//     }
+// });
 
 
 app.use(bodyParser.json());
@@ -32,23 +32,23 @@ app.use(function(req, res, next) { //allow cross origin requests
 app.use(express.static(path.join(__dirname, '../dist')));
 
 
-app.post('/contactus', function(req,res){
-    const mailOptions = {
-        from: req.body.email,
-        to: 'alcreates101@gmail.com',
-        subject: req.body.subject,
-        text: req.body.message 
-    }
-    smtpTransport.sendMail(mailOptions, function(error, response){
-        if(error){
-               console.log(error);
-           res.end("error");
-        }else{
-               console.log("Message sent: " + response.message);
-           res.end("sent");
-            }
-   });
-});
+// app.post('/contactus', function(req,res){
+//     const mailOptions = {
+//         from: req.body.email,
+//         to: 'alcreates101@gmail.com',
+//         subject: req.body.subject,
+//         text: req.body.message 
+//     }
+//     smtpTransport.sendMail(mailOptions, function(error, response){
+//         if(error){
+//                console.log(error);
+//            res.end("error");
+//         }else{
+//                console.log("Message sent: " + response.message);
+//            res.end("sent");
+//             }
+//    });
+// });
 //for developement
 //app.use('/public', express.static(path.join(__dirname, '/public')))
 app.get('*', (req, res) => {
