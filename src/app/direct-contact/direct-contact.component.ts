@@ -20,9 +20,9 @@ export class DirectContactComponent implements OnInit {
   ngOnInit() {
   }
 
-  submit(){
-   
-    this.http.post('/contactme', this.contactInfo).subscribe(response => {
+  submit() {
+
+    this.http.post('/contactus', this.contactInfo).subscribe(response => {
            this.contactInfo = {
              email: '',
              subject: '',
@@ -30,6 +30,6 @@ export class DirectContactComponent implements OnInit {
            };
      });
   }
-   
+
 
 }

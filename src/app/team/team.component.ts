@@ -37,11 +37,12 @@ export class TeamComponent implements OnInit {
      position: 'Managing Director',
      image: '/assets/sarah.jpg',
      // tslint:disable-next-line:max-line-length
-     bio: 'Sarah joined MJE in 2011 and was quickly promoted to Managing Director of MJE Advisors Mutual Fund Search Practice. Sarah works on national searches helping firms hire top talent in Accounting, Tax and Operations.  Prior to entering the executive search field, Sarah honed her sales and marketing skills in the real estate industry. Her real estate career had a strong emphasis on client relations, and customer satisfaction, Sarah was ranked top five amongst her peers. She earned her bachelor’s degree in Business Administration, Marketing from The College of Saint Elizabeth and graduated with high honors. In addition to her recruiting activities, Sarah provides office administration and support, including oversight of the firm’s proprietary candidate database.',
+     bio: `Sarah joined MJE in 2011 and was quickly promoted to Managing Director of MJE Advisors Executive Search Practice. Sarah works on national searches helping firms hire top talent in Accounting, Tax, Legal, Sales and Operations. As an industry leader, Sarah regularly attends industry conferences and is involved with many charities. She prides herself on being a career counselor, advising both candidates and clients on the latest market trends. Prior to entering the executive search field, Sarah honed her sales and marketing skills in the real estate industry. Her real estate career had a strong emphasis on client relations, and customer satisfaction, Sarah was ranked top five amongst her peers. She earned her bachelor’s degree in Business Administration, Marketing from The College of Saint Elizabeth and graduated with high honors. In addition to her recruiting activities, Sarah manages associate level recruiters and oversees the firm’s proprietary candidate database.
+     `,
      phone: '973-765-9400 ',
      ext: '102',
      email: 'sarah@mjeadvisors.com',
-     linkedIn: 'https://www.linkedin.com/in/barryemenmjeadvisors/'
+     linkedIn: 'https://www.linkedin.com/in/sarahecarney/'
    },
    {
     name: 'Frank Carr',
@@ -50,7 +51,7 @@ export class TeamComponent implements OnInit {
     // tslint:disable-next-line:max-line-length
     bio: 'Prior to joining MJE Advisors, Frank was Managing Partner and Founder of Centennial Advisory Group LLC and a specialist in recruiting for the investment management industry with particular expertise in the hedge fund industry. He had also been a Partner in the New York office of global search firm Amrop Battalia Winston. Centennial was named “Recruitment Firm of the Year” for 2009 by Hedge Fund Manager Week magazine. Prior to forming Centennial, Frank had been a Managing Director in the Global Asset Management practice at A.T. Kearney Executive Search, a top 10 U.S. search firm. He began his search career at LAI Ward Howell which was later acquired by TMP Worldwide (owners of Monster.com). Prior to entering executive search, Frank was Chief Financial Officer of a Connecticut-based equity long short hedge fund and Commodity Trading Advisor. Frank had spent eight years in commercial bank lending, initially with Citibank in their Wall Street Commodities division and later as a banker to the feature film and TV industries. He had previously held FINRA licenses, Series 3, 6 and 63. He is a graduate of Williams College where he received a Bachelor of Arts degree in Political Economy. Frank is a former national class marathon runner and an avid bass guitarist. He also serves as an event committee member and Master of Ceremonies of the annual “Hedge Fund Rocktoberfest” in New York City to benefit A Leg to Stand On. ',
     phone: '203-344-9531',
-    ext: '102',
+    ext: '',
     email: 'frank@mjeadvisors.com',
     linkedIn: 'https://www.linkedin.com/in/barryemenmjeadvisors/'
   },
@@ -60,10 +61,10 @@ export class TeamComponent implements OnInit {
     image: '/assets/allison.jpg',
     // tslint:disable-next-line:max-line-length
     bio: 'Prior to joining MJE Advisors Alison was a Senior Executive Recruiter for Parker & Lynch a national recruiting firm owned by Adecco a Fortune 500 recruiting firm.  Alison\'s expertise was with in Accounting & Finance where she was consistently ranked one of the top recruiters for NYC & NJ for over 10 years. She earned her bachelor’s degree in Business Administration from the University of Vermont. At MJE Advisors Alison works on national searches helping firms hire top talent in Accounting, Tax and Operations.',
-    phone: ' ',
-    ext: '',
+    phone: '973-765-9400 ',
+    ext: '105',
     email: 'allison@mjeadvisors.com',
-    linkedIn: 'https://www.linkedin.com/in/barryemenmjeadvisors/'
+    linkedIn: 'https://www.linkedin.com/in/alison-baiter-grzes-729801/'
    },
    {
     name: 'Meaghan Weyer',
@@ -73,9 +74,9 @@ export class TeamComponent implements OnInit {
     bio: `Meaghan joined MJE in 2016 from Wealth Management Consultants, where she was involved with serving ultra high net worth clients. Prior to that, she held positions in various financial institutions including UBS, Stifel Nicolaus, and Northwestern Mutual. Meaghan is originally from Arizona and received her Bachelors degree from Northwestern University, in Evanston, Illinois.
     She currently serves as the Director of Marketing and Research at MJE where she involved in the day to day client and candidate sourcing and outreach.`,
     phone: ' ',
-    ext: '',
+    ext: '101',
     email: 'meaghan@mjeadvisors.com',
-    linkedIn: 'https://www.linkedin.com/in/barryemenmjeadvisors/'
+    linkedIn: 'https://www.linkedin.com/in/meaghan-weyer-19a48498/'
    }
   ];
 
