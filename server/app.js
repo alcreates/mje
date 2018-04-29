@@ -13,7 +13,7 @@ var smtpTransport = nodemailer.createTransport({
         secure: false, // false for TLS - as a boolean not string - but the default is false so just remove this completely
     
     auth: {
-        user: keys.google.email,
+        user: 'info@mjeadvisors.com',
         pass: keys.google.clientSecret
     }
 });
