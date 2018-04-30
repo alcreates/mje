@@ -73,7 +73,7 @@ export class TeamComponent implements OnInit {
     // tslint:disable-next-line:max-line-length
     bio: `Meaghan joined MJE in 2016 from Wealth Management Consultants, where she was involved with serving ultra high net worth clients. Prior to that, she held positions in various financial institutions including UBS, Stifel Nicolaus, and Northwestern Mutual. Meaghan is originally from Arizona and received her Bachelors degree from Northwestern University, in Evanston, Illinois.
     She currently serves as the Director of Marketing and Research at MJE where she involved in the day to day client and candidate sourcing and outreach.`,
-    phone: ' ',
+    phone: '973-765-9400 ',
     ext: '101',
     email: 'meaghan@mjeadvisors.com',
     linkedIn: 'https://www.linkedin.com/in/meaghan-weyer-19a48498/'
