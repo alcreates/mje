@@ -67,10 +67,34 @@
     font-weight: 700;
     font-family: Avenir;
 }
+.downArrow {
+    position:relative; 
+    top:275px; color:white; 
+    font-size:100px;
+}
 
 @media screen and (max-width: 600px) {
     .home_header_subtitle {
         font-size: 15px;
+        line-height: 2.4375rem;
+    }
+    .home_header {
+        top: 0px;
+    }
+    .home_header_title {
+        color: #fff;
+        text-shadow: 0.1875rem 0.1875rem 0.1875rem rgba(0,0,0,.5);
+        font-size: 3rem;
+        line-height: 3.4375rem;
+        margin-bottom: .375rem;
+        font-weight: 700;
+        font-family: Avenir;
+    }
+    .downArrow {
+        position:relative; 
+        top:248px; 
+        color:white; 
+        font-size:100px;
     }
 }
 

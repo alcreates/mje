@@ -44,5 +44,13 @@ agm-marker{
     background: rgba(255, 255, 255, 0.8) !important;
     padding: 10px !important;
   }
+.mapDisplay {
+    padding-top: 50px;
+}
   
 
+@media screen and (max-width: 600px) { 
+   .mapDisplay {
+       display: none;
+   }
+}

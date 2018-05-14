@@ -124,3 +124,33 @@
 .name_label {
     text-align: center;
 }
+.topStaff {
+    display:flex; 
+    
+}
+.bariWrapper {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) { 
+    .topStaff {
+        display:flex; 
+        
+        flex-direction: column;
+    }
+    .bariWrapper {
+        margin: 20px;
+    }
+    .image_wrapper {
+        align-items: center;
+    }
+    .team_container {
+        height: 100%;
+        margin-top: 100px;
+        background-color: #F5F7F9;
+        font-family: Avenir;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+ }
