@@ -79,6 +79,18 @@
    
    
 }
+#mike {
+  
+    background-image: url("/assets/mike.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    width:175px;
+    height: 200px;
+    border: 1px solid #fff;
+   
+   
+}
 #allison {
   
     background-image: url("/assets/allison.jpg");

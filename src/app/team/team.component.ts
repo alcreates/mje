@@ -77,6 +77,18 @@ export class TeamComponent implements OnInit {
     ext: '101',
     email: 'meaghan@mjeadvisors.com',
     linkedIn: 'https://www.linkedin.com/in/meaghan-weyer-19a48498/'
+   },
+   {
+    name: 'Micheal Emem',
+    position: 'Managing Director',
+    image: '/assets/mike.jpg',
+    // tslint:disable-next-line:max-line-length
+    bio: ` Michael Emen joined MJE Advisors in June 2018 bringing broad asset management industry experience to our specialized recruiting platform.  Michael joins MJE from Prudential Global Investment Management where he spent the last 3 years as a Performance Analyst for the Prudential Fixed Income business. Prior to that, Michael spent 4 and a half years working in Private Trade Operations within prudential, and overall has a decade of industry experience in Investment Management Operations, Performance Attribution,  Fund Accounting, and Investor Services.  Michael graduated Fairleigh Dickinson University in 2008 with a BS in Finance, and also holds an MBA in Business Management and Economics from Fairleigh Dickinson.
+    `,
+    phone: '973-765-9400 ',
+    ext: '101',
+    email: ' Michael@mjeadvisors.com',
+    linkedIn: 'https://www.linkedin.com/in/michael-emen-9300a823/'
    }
   ];
 
