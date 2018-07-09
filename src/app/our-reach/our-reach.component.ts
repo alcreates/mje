@@ -377,6 +377,21 @@ export class OurReachComponent implements AfterViewInit {
       "labelShiftY": 2,
       // "zoomLevel": 0,
       // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
+    },
+    {
+      "latitude": 33.501324,
+      "longitude": -111.925278,
+     // "type": "circle",
+      "svgPath": this.icon,
+      "color": "white",
+      "labelColor": "white",
+      "labelRollOverColor": "white",
+      "scale": 0.5,
+      // "title": "New York this is a test --- You can put any content in here ---------",
+      "label": "Scottsdale",
+      "labelShiftY": 2,
+      // "zoomLevel": 0,
+      // "description": "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world."
     }
     
   
