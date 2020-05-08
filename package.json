@@ -39,6 +39,7 @@
     "ng2-typing-carousel": "^0.1.4",
     "nodemailer": "^4.6.4",
     "rxjs": "^5.5.6",
+    "web-animations-js": "^2.3.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
